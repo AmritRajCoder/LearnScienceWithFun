@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+body {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background: linear-gradient(to right, #00FFFB, #FFFF5E, #0CFF00) no-repeat;
+   min-height: 100vh;
+   overflow-x: hidden;
+}
+
+img {
+   height: 210px;
+   width: 320px;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+}
+
+.content {
+   margin: 0;
+   width: 95vw;
+   display: grid;
+   grid-gap: 35px;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   align-content: center;
+   justify-content: center;
+}
+
+.heading {
+   font-size: 3.2rem;
+   font-family: 'Patrick Hand', cursive;
+}
+
+a {
+   text-decoration: none;
+}
+
+.card {
+   margin: auto;
+   text-align: center;
+   transition: 0.5s;
+}
+.card:hover{
+   transform: scale(1.15);
+}
+.card p{
+   font-size: 30px;
+   font-weight: 600;
+}
+
+::-webkit-scrollbar {
+   width: 12px;
+}
+/* Track */
+
+::-webkit-scrollbar-track {
+   background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+   background: #A828D6;
+   border-radius: 6px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+   background: #7D05A8;
+}

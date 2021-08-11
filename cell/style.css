@@ -1,0 +1,40 @@
+.main{
+   font-size: 120%;
+}
+body{
+   background:linear-gradient(to right, #ABFF6A, #FFFA6A);
+}
+img{
+   padding: 0;
+   margin: 0;
+   position: fixed;
+}
+
+.heading{
+   font-size: 3.2rem;
+   font-family: 'Patrick Hand', cursive;
+   text-decoration: underline;
+   text-align: center;
+   color: #00CDFF;
+}
+::-webkit-scrollbar {
+   width: 12px;
+}
+/* Track */
+
+::-webkit-scrollbar-track {
+   background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+   background: #A828D6;
+   border-radius: 6px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+   background: #7D05A8;
+}

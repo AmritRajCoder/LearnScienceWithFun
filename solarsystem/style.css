@@ -1,0 +1,112 @@
+.hh1 {
+  text-align: center;
+  font-size: 160%;
+  color: white;
+}
+
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e4/StarfieldSimulation.gif);
+  background-size: 100%;
+}
+
+.spec {
+  position: fixed;
+  color: white;
+  text-decoration: none;
+  font-size: 220%;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+  padding: 0 20px;
+  transition: 0.5s;
+}
+
+.spec:hover {
+  background-color: white;
+  color: cyan;
+  border-color: cyan;
+  transform: scale(1.1);
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 115%;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: pink;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+th {
+  color: #F6CD7B;
+  font-family: Verdana;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+table {
+  border: 3.4px ridge #A9F9F9;
+  border-radius: 18.8px;
+  background: radial-gradient(#77797A, black);
+}
+
+caption {
+  color: white;
+  font-size: 350%;
+}
+
+th, td {
+  border: 3.1px solid #F4A9F9;
+  border-radius: 8.7px;
+  text-align: center;
+}
+
+td {
+  color: #CBF9A9;
+  font-size: 102%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: sans-serif;
+}
+
+#t1 {
+  font-size: 123%;
+  font-family: Candara;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 43px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #A828D6;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7D05A8;
+}
